@@ -1,0 +1,27 @@
+{% extends "map/baseindex.html" %}
+{% load static %}
+
+{% block title %} داشبورد {% endblock  %}
+
+
+{% block tempbody %}
+<div class="content">
+  <div class="animated fadeIn">
+      <div class="row">
+
+          <div class="col-12">
+              <div class="card">
+                  <div class="card-body">
+                      <h4 class="mb-3">Team Commits </h4>
+                      <canvas id="team-chart"></canvas>
+                  </div>
+              </div>
+          </div><!-- /# column -->
+
+      </div>
+
+  </div><!-- .animated -->
+</div>  
+{% endblock  %}
+
+

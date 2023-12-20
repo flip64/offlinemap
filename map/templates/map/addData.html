@@ -1,0 +1,23 @@
+{% extends "map/base.html" %}
+{% block title %}
+
+{% endblock  %}
+
+{% block content %}
+
+<div class="container mt-5">
+
+    <form class='form-multiline'  action='' method='post' enctype="multipart/form-data">
+      {% csrf_token %}
+       {{form}} 
+
+      <button 
+        class="btn btn-primary my-3 py-3" 
+        type="submit" 
+        >
+         ok
+      </button>  
+     </form>
+
+  </div>
+{% endblock  %}

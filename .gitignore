@@ -2,7 +2,6 @@
 
 .venv/
 *.xlsx
-map/
 ### OSX ###
 .DS_Store
 .AppleDouble
