@@ -1,0 +1,76 @@
+{% extends "map/baseindex.html" %}
+{% load static %}
+
+{% block title %} داشبورد {% endblock  %}
+
+
+{% block tempbody %}
+<div class="content">
+  <div class="animated fadeIn">
+      <div class="row">
+       
+          <div class="col-6 mb-3"  >
+              <div class="card">
+                  <div class="card-body">
+                      <h4 class="mb-3"> نمودار اول   </h4>
+                      <img src="{% static 'img/plot1.png' %}" class="img-fluid" alt="Responsive image">
+
+                  </div>
+              </div>
+          </div><!-- /# column -->
+
+          
+
+          <div class="col-6 mb-3">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="mb-3"> نمودار دوم  </h4>
+                    <img src="{% static 'img/plot2.png' %}" class="img-fluid" alt="Responsive image">
+
+                </div>
+            </div>
+        </div><!-- /# column -->
+
+
+        <div class="col-6 mb-3">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="mb-3"> نمودار سوم   </h4>
+                    <img src="{% static 'img/plot3.png' %}" class="img-fluid" alt="Responsive image">
+
+                </div>
+            </div>
+        </div><!-- /# column -->
+      
+
+        <div class="col-6 mb-3">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="mb-3"> نمودار چهارم  </h4>
+                    <img src="{% static 'img/plot4.png' %}" class="img-fluid" alt="Responsive image">
+
+                </div>
+            </div>
+        </div><!-- /# column -->
+
+        
+
+        <div class="col-6 mb-3">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="mb-3"> نموارر پنجم  </h4>
+                    <img src="{% static 'img/plot5.png' %}" class="img-fluid" alt="Responsive image">
+
+                </div>
+            </div>
+        </div><!-- /# column -->
+
+        
+        
+      </div>
+
+  </div><!-- .animated -->
+</div>  
+{% endblock  %}
+
+

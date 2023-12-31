@@ -29,7 +29,7 @@ def uri():
     
     plt.legend(['First List', 'Second List'], loc='upper left')
     plt.savefig('static/img/myplot.png',format= 'png' , dpi=800,bbox_inches='tight')
-  #  plt.show()
+   #plt.show()
     plt.close()
     fig=plt.gcf()
     buf=io.BytesIO()
